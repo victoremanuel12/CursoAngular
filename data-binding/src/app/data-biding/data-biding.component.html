@@ -1,0 +1,18 @@
+<section class="property-binding">
+   <article>
+      <h3>Interpolação</h3>
+      <p>endereço renderizado na interpolação {{ url }}</p>
+      <p>o resultado da soma de 1 + 1 é {{1+1}}</p>
+      <p>o resultado da soma de 1 + 1 é {{1+1 + getValor()}}</p>
+      <p> {{ getValor() > 2 ? "É maior" : "É menor!" }}</p>
+      <p> {{ getValor() > 2 ? "É maior" : "É menor!" }}</p>
+
+      <img [src]=imageUrl alt="Imagem aleatoria">
+      <img src={{imageUrl}} alt="Imagem aleatoria">
+      <img bind-src="imageUrl" alt="Imagem aleatoria">
+
+
+
+      
+   </article>
+</section>
